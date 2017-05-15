@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_main">
+        <SwitchPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="false"
+            android:key="main_switch"
+            android:summaryOff="@string/pref_switch_activate_summaryOff"
+            android:summaryOn="@string/pref_switch_activate_summaryOn"
+            android:title="@string/pref_switch_activate_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
